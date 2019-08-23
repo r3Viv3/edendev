@@ -1,0 +1,202 @@
+body{
+    color:#777;
+}
+.Blog-header{
+    background:url('http://ninzio.com/lacuisine/wp-content/uploads/slider_bg1-1.jpg');
+    height:400px;   
+    background-position:0px 690px;
+}
+
+.caption{
+    padding-top:10%;
+}
+.caption h2{
+    color:#777;
+}
+
+
+.Blog-content{
+    background-color:#f0eee9;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.Blog-body{
+    padding-top:70px;
+    padding-bottom: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#333;
+}
+
+.post-author,.post-comment,.post-category{
+    color:#999;
+}
+
+.post-category a{
+    color:inherit;
+}
+.post-category a:hover{
+    text-decoration:none;
+    color:#dc3522;
+
+}
+
+.post-comment a{
+    color:inherit;
+}
+.post-comment a:hover{
+    color:#dc3522;
+    text-decoration: none;
+}
+
+.post-date{
+    color:#fff;
+    text-align: center;
+    width:55px;
+    height:70px;
+    background-color:#dc3522;
+    float:right;
+}
+.post-date span{
+    font-size:30px;
+}
+.post-date h6{
+    font-size:14px;
+}
+.post-body{
+    padding:70px 50px;
+}
+.post-date-inner{
+    margin:5px;
+    border: dotted 1px white;
+}
+.post-title{
+    padding-bottom: 40px;
+}
+.card{
+    width:850px;
+    float:right;
+}
+
+.post-content p{
+    color:#777;
+}
+
+.subscribe-email{
+    margin-top:30px;
+
+}
+
+.subscribe-email i{
+    color:#dc3522;
+}
+.subscribe-email .input-group-append:hover i{
+    color:#a70000;
+}
+
+.post-tag a{
+    display:inline-block;
+    padding:5px 15px;
+    color:#777777;
+    background-color:#ffffff;
+    border: solid 1px #e0e0e0; 
+    margin-left:2px;
+    font-size:13px;
+}
+.post-tag a:hover{
+    text-decoration: none;
+    color:inherit;
+    border:1px solid #ccc;
+}
+
+.post-tag {
+    margin-top:50px;
+    
+}
+
+.share-label{
+    text-transform: uppercase;
+    float:left;
+}
+
+.share-social-links a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.share-social-links a{
+    color:inherit;
+    
+}
+.post-social-share{
+    border: solid 1px #e0e0e0; 
+    padding:5px 15px;
+    margin-top:20px;
+}
+.share-social-links{
+    float:right;
+    margin-left: 10px;
+}
+#prev,#next{
+    color:inherit;
+}
+#prev:hover,#next:hover{
+    text-decoration: none;
+}
+#next{
+    text-align: right;
+}
+.article-change{
+    margin-top:20px;
+    padding: 10px 0;
+    color:#ccc;
+}
+.article-change:hover{
+    color:#333;
+}
+
+
+.post-recent img{
+    width:70px;
+    height:70px;
+    padding:6px;   
+}
+
+
+#articles{
+    margin-top: 20px;
+
+}
+#articles row{
+    padding-top:20px;
+}
+#article-category{
+    margin-top:20px;
+ 
+}
+#article-category li:hover{
+    color:#dc3522;
+}
+@media only screen and (max-width: 600px){
+    .post-date{
+        float:left;
+    }
+    .title{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .post-recent{
+        text-align: center;
+    }
+    .subscribe-email{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    h1{
+        font-size:1.5rem!important;
+    }
+}
+
+
+
